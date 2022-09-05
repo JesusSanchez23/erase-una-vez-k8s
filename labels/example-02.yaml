@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    color: blue
+    name: figure-07
+    shape: circle
+  name: figure-07
+spec:
+  containers:
+  - image: ghcr.io/mmorejon/erase-una-vez-1:v0.3.0
+    name: figure-07
